@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bravo Web Game</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<!-- <h1> Welcome to my web game</h1>
+<label for="playerName">Enter your name:</label>
+<input id="playerName"> -->
+
+
+
+</div>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-controller"></i>
+                Bravo Web Game
+            </a>
+
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="#">Concept</a>
+                <a class="nav-link" href="#">Full Game</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="game" class="container min-vh-100 d-flex flex-column py-3">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <h3>Score: <span id="score">0</span></h3>
+                <h3>Leaderboard</h3>
+
+                <ul id="leaderboard">
+                    <li>Cam - 400</li>
+                    <li>Jay - 250</li>
+                    <li>You - <span id="scoreBoard">0</span></li>
+                </ul>
+                <button id="startBtn" class="btn btn-success">
+                    Start
+                </button>
+
+                <button id="resetBtn" class="btn btn-danger">
+                    Reset
+                </button>
+                <h1>Game Board</h1>
+                <label for="playerName">Enter your name:</label>
+                <input id="playerName">
+                <p id="greetPlayer"></p>
+                <p id="browser"></p>
+                <p id="dateTime"></p>
+            </div>
+        </div>
+        <div class="row flex-grow-1">
+            <div class="col-md-10 offset-md mx-auto">
+                <div id="gameboard" class="border rounded w-100 h-75" style="position:relative;">
+
+                    <div id="gamePiece" style="height:30px; width:30px">🦁</div>
+                    <div id="winGame">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="gameModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        You Win!
+                    </h5>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Great Job!
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"
+        integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js"
+        integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M=" crossorigin="anonymous"></script>
+
+    <!-- Form JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+<footer class="text-center mt-4">
+
+    <hr>
+
+    <p>
+
+        <a href="https://github.com/Camryn14/Bravo-webgame">
+            Game Repo
+        </a>
+
+        |
+
+        <a href="https://github.com/Camryn14">
+            GitHub Profile
+        </a>
+
+    </p>
+
+</footer>
+
+
+
+
+
+
+
+</html>
