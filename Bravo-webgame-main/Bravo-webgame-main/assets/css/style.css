@@ -1,0 +1,13 @@
+#winGame {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.ui-state-highlight {
+
+    background-color: green
+}
