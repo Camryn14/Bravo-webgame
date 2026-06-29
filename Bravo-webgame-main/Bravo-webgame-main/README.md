@@ -1,7 +1,5 @@
 # Bravo-webgame
 Camryns Cis 376 web game
-# Bravo Web Game
-
 > A simple drag-and-drop web game built with HTML, CSS, JavaScript, jQuery, jQuery UI, and Bootstrap 5.
 
 ---
